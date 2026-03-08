@@ -1,0 +1,29 @@
+# ============================================================
+# requirements.txt – Dépendances du projet shoplifting detection
+# ============================================================
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python>=4.8.0
+ultralytics>=8.0.0  # YOLOv8/YOLO26
+
+# Tracking
+deep-sort-realtime>=1.3.2
+
+# Pose estimation
+mediapipe==0.10.14
+
+# Data science
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Visualisation & Utils
+colorama>=0.4.6
+tqdm>=4.65.0
+
+# Optimisation GPU (optionnel, déjà installé avec torch)
+# Pour installation spécifique CUDA 11.8 :
+# torch torchvision --index-url https://download.pytorch.org/whl/cu118

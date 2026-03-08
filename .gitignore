@@ -1,0 +1,33 @@
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
+*.temp
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.avi
+*.mp4
+*.mov
+*.mkv
+outputs/
+predictions/
+videos/
+Shop DataSet/
+Shop Dataset/
+shoplifting/
+normal/
