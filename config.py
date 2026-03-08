@@ -10,7 +10,7 @@
 #   VIDEO_SOURCE = 0                    → webcam
 #   VIDEO_SOURCE = "video_test.mp4"     → fichier vidéo
 # ------------------------------------------------------------
-VIDEO_SOURCE = r"C:\Users\falaq\OneDrive\Desktop\Jad Falaq\AmnAI\Shop DataSet\shop lifters\shop_lifter_13.mp4"
+VIDEO_SOURCE = r"C:\Users\falaq\OneDrive\Desktop\Jad Falaq\AmnAI\Shop DataSet\shop lifters\shop_lifter_78.mp4"
 
 # ------------------------------------------------------------
 # 🤖 MODÈLE YOLO26
@@ -89,19 +89,17 @@ DROPOUT_RATE = 0.4
 # Seuil de classification
 CLASSIFIER_THRESHOLD = 0.65  # Probabilité > 0.65 → shoplifting
 
-# Chemin du modèle entraîné (None = mode heuristique)
-MODEL_PATH_LSTM = None  # Mettre "model_shoplifting.pth" après entraînement
 
 # Mode de détection
 USE_HEURISTIC = False
 USE_LSTM = True
-MODEL_PATH_LSTM = "model_shoplifting.pth"
+MODEL_PATH_LSTM = r"C:\Users\falaq\OneDrive\Desktop\Jad Falaq\AmnAI\AmnAi_Vlast\model_shoplifting.pth"
 # ------------------------------------------------------------
 # 🚨 ALERTES
 # ------------------------------------------------------------
 # Seuils d'alerte
-ALERT_THRESHOLD_HIGH = 0.85  # Critique
-ALERT_THRESHOLD_MEDIUM = 0.65  # Suspect
+ALERT_THRESHOLD_HIGH = 0.5  # Critique
+ALERT_THRESHOLD_MEDIUM = 0.4  # Suspect
 
 # Couleurs alertes (BGR)
 COLOR_HIGH_RISK = (0, 0, 255)  # Rouge

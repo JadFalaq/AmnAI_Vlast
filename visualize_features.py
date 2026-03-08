@@ -16,6 +16,8 @@ from tracker import PersonTracker
 from behavior_analyzer import TrackBehaviorAnalyzer
 
 
+
+
 def visualize_track_features(video_path, track_id_to_plot=None):
     """
     Visualise les features comportementales d'une vidéo.
@@ -168,9 +170,9 @@ def main():
         default=None,
         help="ID du track à visualiser (défaut: track le plus long)"
     )
-    
+
     args = parser.parse_args()
-    
+
     visualize_track_features(args.video, args.track_id)
 
 
